@@ -26,6 +26,7 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
               <div class="card-content">
                 <div class="content article-body is-size-5">
                   Here is the hard-coded description for blog #2.
+                  <pre>{{ blogPost }}</pre>
                 </div>
               </div>
             </section>
