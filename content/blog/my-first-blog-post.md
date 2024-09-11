@@ -1,8 +1,9 @@
 ---
-title: "My First Blog Post"
-author: "@bruno
+title: My First Blog Post
+author: "@bruno"
 dates:
-  published: "2022-05-01"
+  published: 2022-05-01
+description: A description of my first blog post.
 --- 
 
 # Sample Markdown

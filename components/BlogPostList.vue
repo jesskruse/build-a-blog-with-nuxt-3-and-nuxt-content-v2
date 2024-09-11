@@ -20,13 +20,15 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
                   <h3 class="title article-title has-text-weight-bold">
                     {{ blogPost.title }}
                   </h3>
-                  <BlogPostMeta author="@bruno" date="2022-06-01" />
+                  <BlogPostMeta
+                    :author="blogPost.author"
+                    :date="blogPost.dates.published"
+                  />
                 </div>
               </div>
               <div class="card-content">
                 <div class="content article-body is-size-5">
                   Here is the hard-coded description for blog #2.
-                  <pre>{{ blogPost }}</pre>
                 </div>
               </div>
             </section>
